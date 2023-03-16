@@ -1,0 +1,24 @@
+{
+  "name": "tutedude-main-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyanka-tute/main-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyanka-tute/main-app/issues"
+  },
+  "homepage": "https://github.com/priyanka-tute/main-app#readme",
+  "dependencies": {
+    "mongoose": "^7.0.2"
+  }
+}
