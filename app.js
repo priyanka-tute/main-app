@@ -52,5 +52,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/lms/API",require("./routes/course"));
 
-
+app.use("/lms",(req,res)=>{
+  res.send({success:true});
+});
 module.exports = app;
