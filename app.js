@@ -49,10 +49,6 @@ app.use(express.static(path.join(__dirname, "public")));
 // app.use(bodyParser.json());
 // app.use(bodyParser.urlencoded({ extended: true }));
 // app.route("/assignment")
-app.get("/", (req, res) => {
-  //   res = setPublicCookie(req, res);
-  res.render("index", { user: undefined });
-})
 
 app.use("/lms/API",require("./routes/course"));
 
